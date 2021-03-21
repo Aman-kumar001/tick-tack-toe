@@ -1,0 +1,95 @@
+body{
+    background-image: radial-gradient(gray, #272727);
+}
+#welcome{
+    height:600px;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#start{
+    position: relative;
+    left:47.5%;
+    height:40px;
+    display: block;
+    width:70px;
+    border-radius: 15px;
+    border:none;
+}
+#welcome h1{
+    text-align: center;
+}
+#welcome a{
+    text-decoration: none;
+    color:gray
+}
+#footer{
+    padding-left: 47%;
+    text-align: center;
+    position: absolute;
+    top:95%;
+}
+#game{
+    margin-bottom:50px;
+}
+#game h1{
+    text-align: center;
+}
+.cont{
+    display:flex;
+    margin:0 auto;
+    width:50%;
+}
+.box{
+    width:33.33%;
+    text-align: center;
+    height:150px;
+}
+.cross{
+    background: url("cross.svg");
+    background-position-x: 50%;
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+.circle{
+    background: url("circle.svg");
+    background-position-x: 50%;
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+#b1{
+    border-right: 2px solid white;
+    border-bottom: 2px solid white;
+}
+#b3{
+    border-left: 2px solid white;
+    border-bottom: 2px solid white;
+}
+#b9{
+    border-left: 2px solid white;
+    border-top: 2px solid white;
+}
+#b7{
+    border-right: 2px solid white;
+    border-top: 2px solid white;
+}
+#b5{
+    border: 2px solid white;
+}
+#b2{
+    border: 2px solid white;
+    border-top: none;
+}
+#b8{
+    border: 2px solid white;
+    border-bottom: none;
+}
+#b6{
+    border: 2px solid white;
+    border-right: none;
+}
+#b4{
+    border: 2px solid white;
+    border-left: none;
+}
